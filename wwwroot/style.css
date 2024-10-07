@@ -1,0 +1,97 @@
+/* body {
+    background-image: url('Background.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: lime;
+}
+
+#searchResults{
+    color: lime;
+} */
+body {
+    background-image: url('Background1.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+/* Center the title */
+header h1 {
+    color: lime;
+    font-size: 3.5em;
+    text-align: center;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+#searchDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+#query {
+    width: 300px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+#searchButton {
+    padding: 10px 15px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#subSearchDiv {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#timeButton {
+    padding: 6px 15px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#Time{
+    color: lime
+}
+
+#searchResults {
+    color: lime;
+    margin-top: 20px;
+    text-align: left;
+    width: 200%;
+}
+
+#luckyButton {
+    padding: 6px 15px;
+    font-size: 1em;
+    cursor: pointer;
+}

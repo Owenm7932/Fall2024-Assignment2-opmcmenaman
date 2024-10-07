@@ -2,10 +2,53 @@
 <html lang="en">
 
 <head>
+
+    <title>Luminex</title>
+
     <link rel="stylesheet" href="./style.css">
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+            integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs"
+            crossorigin="anonymous"></script>
+
+    <!-- JQueryUI -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.14.0/jquery-ui.min.js"
+            integrity="sha384-8EM386r8XMMzwGPUxfGNr6c1wIOYnPQBJ6VFxzKCZeklpQarHoZGB40kdNDA3gYr"
+            crossorigin="anonymous"></script>
+
+    <!-- JQuery UI Theme -->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.14.0/themes/vader/jquery-ui.css" 
+      integrity="sha384-bi3X3gf5o+bi2QmcMs+BlLSyUGrmTps+1wSMH4Pb84rfadQclsiaAeR8PDl65Qee" 
+      crossorigin="anonymous">
+
 </head>
 
 <body>
+
+    
+
+    <main>
+        <header>
+            <h1 id="Header">Luminex</h1>
+        </header>
+
+        <div id="searchDiv">
+            <input type="text" id="query" placeholder="Search Here!">
+            <button id="searchButton">Search</button>
+            
+        </div>
+
+        <div id="subSearchDiv">
+            <button id="timeButton">Show Current Time</button>
+            <button id="luckyButton">I'm Feeling Lucky!</button>
+        </div>
+        
+
+        <div id="searchResults"></div>
+        <div id="Time"></div>
+    </main>
+
     <script type="text/javascript" src="./script.js"></script>
 </body>
 
